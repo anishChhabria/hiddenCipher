@@ -18,3 +18,8 @@ docker built -t buzzer
 
 Step 2: 
 docker run -p 8090:8090 buzzer
+
+
+
+open http:localhost:8090 in your browser
+for host/admin view open http:localhost:8090/hiddenCipher
