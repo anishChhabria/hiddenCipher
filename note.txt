@@ -1,0 +1,20 @@
+once this repository is cloned there are two ways to locally host this repository
+1 Nodejs
+2 Docker
+
+For Nodejs
+ 
+Step 1: 
+npm install
+// to install node modules
+Step 2:
+npm start
+// if this shows an error then install nodemon by npm i nodemon 
+
+For Docker 
+
+Step 1:
+docker built -t buzzer
+
+Step 2: 
+docker run -p 8090:8090 buzzer
